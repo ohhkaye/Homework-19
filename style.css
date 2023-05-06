@@ -1,0 +1,332 @@
+/* Resources to quickly grab */
+    /* background color */ 
+        /* light green: #C8D3C3 */
+        /* light pink: #EBAC9F */
+        /* tan: #F7F6F2 */
+        /* dark grey: #9F9998 */
+
+/* ~~~~~~~~~~~~~~~~~~~ Header Section ~~~~~~~~~~~~~~~~~~~ */
+
+.inline-block {
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 10px;
+}
+
+.logo {
+    width: 22%;
+    padding: 1%;
+    text-align: center;
+}
+
+header {
+    align-content: center;
+}
+
+nav {
+    width: 73%;
+    padding: 1%;
+}
+
+ul {
+    width: 450px;
+    margin-left: auto;
+    font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~ Intro and Howdy Section ~~~~~~~~~~~~~~~~~~~ */
+
+.heroImg {
+    padding: 50px;
+    display: flex;
+    text-align: left;
+    position: relative;
+    height: 350px;
+}
+
+.content {
+    display: flex;
+    margin: 1px;
+}
+
+.IntroText {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+}
+
+h1 {
+    color: #000000;
+    text-align: left;
+    font-size: 10vw;
+    font-family: 'Playfair Display';
+    display: block;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+h2 {
+    color: #000000;
+    text-align: left;
+    font-size: 48px;
+    font-family: 'Playfair Display';
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: #000000;
+    text-align: left;
+    font-size: 35px;
+    font-family: 'Playfair Display';
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h4 {
+    color: #000000;
+    text-align: left;
+    font-size: 28px;
+    font-family: 'Playfair Display';  
+    margin: 20px 10px 10px 10px;
+}
+
+p {
+    color:#000000;
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+    display: flex;
+    padding: 5px 30px 5px 30px;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~ Projects Section ~~~~~~~~~~~~~~~~~~~ */
+
+.MyWorkHeader {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+.myworkLine {
+    display: inline;
+    vertical-align: middle;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 3px;
+    background-color: #9F9998;
+}
+
+.myworkTitle {
+    display: inline;
+    vertical-align: middle;
+    margin: auto;
+    height: 65px;
+}
+
+.ProjectsSection {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    margin: 5%;
+}
+
+.ProjectItem {
+    display: flex;
+    position: relative;
+    border: 5px solid #C8D3C3;
+    border-radius: 25px;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.projectImg {
+    background-color: green;
+    justify-content: space-between;
+    height: 55%;
+    margin: 25px 0px 0px 0px;
+}
+
+.casestudyTitle {
+    text-align: center;
+    padding: 5px 10px 20px 10px;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~ Skills Section ~~~~~~~~~~~~~~~~~~~ */
+
+.MySkillsHeader {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+.myskillsLine {
+    display: inline;
+    vertical-align: middle;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 3px;
+    background-color: #9F9998;
+}
+
+.myskillsTitle {
+    display: inline;
+    vertical-align: middle;
+    margin: auto;
+    height: 65px;
+}
+
+.SkillsSection {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    margin: 5%;
+}
+
+.SkillsBox {
+    display: flex;
+    position: static;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid #C8D3C3;
+    border-radius: 25px;
+    height: 380px;
+    width: 400px;
+}
+
+.SkillsList {
+    text-align: left;
+}
+
+.SkillsList li {
+    list-style-type: none;
+    color:#000000;
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+    margin: 5px 20px 5px 20px;
+}
+
+/* .BorderTest {
+    display: flex;
+    height: 300px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5% 15% 5% 15%;
+}
+
+.box {
+    position: static;
+    border: 5px solid #000000;
+    border-radius: 25px;
+    height: 100px;
+    width: 100px;
+    background-color: green;
+} */
+
+/* ~~~~~~~~~~~~~~~~~~~ CSS GRID FOR CLASS ASSIGNMENT ~~~~~~~~~~~~~~~~~~~ */
+
+.workGRID {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+.workgridLine {
+    display: inline;
+    vertical-align: middle;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 3px;
+    background-color: #9F9998;
+}
+
+.workgridTitle {
+    display: inline;
+    vertical-align: middle;
+    margin: auto;
+    height: 65px;
+}
+
+.GridDeliverable {
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "cardOne cardTwo cardThree";
+    grid-template-rows: 1fr;
+}
+
+.cardOne {
+    grid-area: cardOne;
+}
+
+.cardTwo {
+    grid-area: cardTwo;
+}
+
+.cardThree {
+    grid-area: cardThree;
+}
+
+/* .gridbox {
+    display:block;
+    height: 50px;
+    width: 50px;
+    /* background-color: green;
+    border: 5px solid #C8D3C3;
+    border-radius: 25px;
+    width: 400px;
+    height: 400px;
+} */
+
+/* ~~~~~~~~~~~~~~~~~~~ Footer Section ~~~~~~~~~~~~~~~~~~~ */
+
+footer {
+    display: flex;
+    width: 99%;
+    padding: 4%;
+    justify-content: end;
+    align-items: center;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~ Mobile Media Query ~~~~~~~~~~~~~~~~~~~ */
+
+@media only screen and (max-width: 600px){
+    .ProjectsSection {
+        flex-direction: column;
+    }
+
+    .SkillsSection {
+        flex-direction: column;
+    }
+
+    .GridDeliverable {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "cardOne"
+            "cardTwo"
+            "cardThree";
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+}
