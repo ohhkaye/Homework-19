@@ -7,6 +7,16 @@
 
 /* ~~~~~~~~~~~~~~~~~~~ Header Section ~~~~~~~~~~~~~~~~~~~ */
 
+html {
+    scroll-behavior: smooth;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .inline-block {
     display: inline-block;
     vertical-align: middle;
@@ -23,15 +33,17 @@ header {
     align-content: center;
 }
 
-nav {
+/*nav {
     width: 73%;
     padding: 1%;
-}
+}*/
 
 ul {
-    width: 450px;
+    display: flex; 
+    justify-content: space-around;
     margin-left: auto;
     font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+    list-style-type: none;
 }
 
 /* ~~~~~~~~~~~~~~~~~~~ Intro and Howdy Section ~~~~~~~~~~~~~~~~~~~ */
@@ -87,7 +99,7 @@ h3 {
 
 h4 {
     color: #000000;
-    text-align: left;
+    text-align: center;
     font-size: 28px;
     font-family: 'Playfair Display';  
     margin: 20px 10px 10px 10px;
@@ -109,13 +121,12 @@ p {
     width: 100%;
     flex-direction: column;
     align-items: center;
-    padding: 50px;
+    /* padding: 10px; */
 }
 
 .myworkLine {
     display: inline;
     vertical-align: middle;
-    margin: auto;
     justify-content: center;
     align-items: center;
     width: 800px;
@@ -126,7 +137,6 @@ p {
 .myworkTitle {
     display: inline;
     vertical-align: middle;
-    margin: auto;
     height: 65px;
 }
 
@@ -135,7 +145,8 @@ p {
     width: 100%;
     align-items: center;
     justify-content: space-around;
-    margin: 5%;
+    margin-top: 50px;
+    margin-bottom: 140px;
 }
 
 .ProjectItem {
@@ -170,13 +181,11 @@ p {
     width: 100%;
     flex-direction: column;
     align-items: center;
-    padding: 50px;
 }
 
 .myskillsLine {
     display: inline;
     vertical-align: middle;
-    margin: auto;
     justify-content: center;
     align-items: center;
     width: 800px;
@@ -196,14 +205,21 @@ p {
     width: 100%;
     align-items: center;
     justify-content: space-around;
-    margin: 5%;
+    margin-top: 50px;
+    margin-bottom: 140px;
+}
+
+.boxHeader {
+    display: block;
+    width: 100%;
+    justify-self: center;
 }
 
 .SkillsBox {
     display: flex;
     position: static;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     border: 5px solid #C8D3C3;
     border-radius: 25px;
     height: 380px;
@@ -211,16 +227,23 @@ p {
 }
 
 .SkillsList {
-    text-align: left;
+  /*  text-align: left; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: left;
+  margin-left: 10px;
 }
 
 .SkillsList li {
+    display: flex;
+    flex-direction: column;
     list-style-type: none;
     color:#000000;
     text-align: left;
     font-size: 20px;
     font-family: 'Quicksand', Arial, Helvetica, sans-serif;
-    margin: 5px 20px 5px 20px;
+    /*margin: 5px 20px 5px 20px;*/
 }
 
 /* .BorderTest {
@@ -247,13 +270,11 @@ p {
     width: 100%;
     flex-direction: column;
     align-items: center;
-    padding: 50px;
 }
 
 .workgridLine {
     display: inline;
     vertical-align: middle;
-    margin: auto;
     justify-content: center;
     align-items: center;
     width: 800px;
@@ -264,7 +285,6 @@ p {
 .workgridTitle {
     display: inline;
     vertical-align: middle;
-    margin: auto;
     height: 65px;
 }
 
@@ -274,6 +294,8 @@ p {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: "cardOne cardTwo cardThree";
     grid-template-rows: 1fr;
+    margin-top: 50px;
+    margin-bottom: 140px;
 }
 
 .cardOne {
@@ -303,10 +325,21 @@ p {
 
 footer {
     display: flex;
-    width: 99%;
-    padding: 4%;
-    justify-content: end;
+    width: 100%;
+    justify-content: flex-end;
     align-items: center;
+    position: fixed;
+}
+
+.alignRight {
+    justify-content: flex-end;
+}
+
+.top {
+    position: fixed;
+    bottom: 20px;
+    right: 50px;
+    display: block;
 }
 
 /* ~~~~~~~~~~~~~~~~~~~ Mobile Media Query ~~~~~~~~~~~~~~~~~~~ */

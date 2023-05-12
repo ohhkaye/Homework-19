@@ -9,6 +9,8 @@
         <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
     </head>
 
+    <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+
     <body style="background-color: #F7F6F2;">
 
         <!--/* ~~~~~~~~~~~~~~~~~~~ Header & Navigation Section ~~~~~~~~~~~~~~~~~~~ */-->
@@ -23,8 +25,8 @@
             <nav class="inline-block">
                 <ul>
                     <li class="inline-block">About Me</li>
-                    <li class="inline-block">My Work</li>
-                    <li class="inline-block">My Skills</li>
+                    <li><a href="#section1" class="inline-block">My Work</a></li>
+                    <li><a href="#section2" class="inline-block">My Skills</a></li>
                     <li class="inline-block">Contact Me</li>
                     <li class="inline-block">Resume</li>
                 </ul>
@@ -49,7 +51,7 @@
 
 <!--/* ~~~~~~~~~~~~~~~~~~~ My Work ~~~~~~~~~~~~~~~~~~~ */-->
 
-        <section class="MyWorkHeader">
+        <section id="section1" class="MyWorkHeader">
             <div class="myworkLine"></div>
             <div class="myworkTitle">
                 <h3>My Work</h3>
@@ -82,7 +84,7 @@
 
 <!--/* ~~~~~~~~~~~~~~~~~~~ My Skills ~~~~~~~~~~~~~~~~~~~ */-->
 
-        <section class="MySkillsHeader">
+        <section id="section2" class="MySkillsHeader">
             <div class="myskillsLine"></div>
             <div class="myskillsTitle">
                 <h3>My Skills</h3>
@@ -91,7 +93,9 @@
         
         <section class="SkillsSection">
            <div class="SkillsBox">
-                <h4>Software Skills</h4>
+                <div class="boxHeader">
+                    <h4>Software Skills</h4> 
+                </div>
                 <ul class="SkillsList">
                     <li class="SkillsList">Figma</li>
                     <li class="SkillsList">Github</li>
@@ -105,7 +109,9 @@
                 </ul>
             </div>
             <div class="SkillsBox">
-                <h4>Interpersonal Skills</h4>
+                <div class="boxHeader">
+                    <h4>Interpersonal Skills</h4> 
+                </div>
                 <ul class="SkillsList">
                     <li class="SkillsList">Design</li>
                     <li class="SkillsList">Empathy</li>
@@ -149,11 +155,12 @@
 
 <!--/* ~~~~~~~~~~~~~~~~~~~ Footer Section ~~~~~~~~~~~~~~~~~~~ */-->
 
-        <footer>
-            <ul>
+        <footer class="top">
+            <ul class="alignRight">
                 <li class="inline-block">Contact Me</li>
                 <li class="inline-block">LinkedIn</li>
                 <li class="inline-block">Resume</li>
+                <li><a href="#" class="inline-block">SCROLL UP</a></li>
             </ul>
         </footer>
 
